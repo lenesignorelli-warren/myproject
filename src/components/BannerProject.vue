@@ -1,0 +1,16 @@
+<template>
+<div>
+  <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</div>
+</template>
+
+<script>
+export default {
+    name: 'BannerProject'
+}
+</script>
+
+<style>
+
+</style>

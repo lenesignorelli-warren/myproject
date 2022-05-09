@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <MenuProject />
+    <BannerProject />
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -8,12 +9,14 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import MenuProject from './components/MenuProject.vue'
+import BannerProject from './components/BannerProject.vue'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
-    MenuProject
+    MenuProject,
+    BannerProject
   },
 }
 </script>
