@@ -1,4 +1,5 @@
 <template>
+
 <div class="menu">
     <ul>
     <li>
@@ -36,21 +37,17 @@ export default {
 </script>
 
 <style scoped>
-
 .menu{
-    /* position: left; */
-    /* justify-content: space-between; */
     background-color: #dddddd;
     padding: 10px;
     font-family: Arial, sans-serif;
     font-weight: bold;
+    
 }
 
 li{
     display: inline;
-    padding: 30px;
-    
-    
+    padding: 50px;    
 }
 
 li a{
@@ -66,8 +63,6 @@ li input{
     background: black;
     padding: 10px;
     font-weight: bold;
-}
-
-    
+}    
 
 </style>
