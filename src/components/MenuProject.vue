@@ -1,8 +1,7 @@
 <template>
-
-<div class="menu">
+  <div class="menu">
     <ul>
-    <li>
+      <li>
         <svg
           width="92"
           height="32"
@@ -18,51 +17,49 @@
             fill="#2F2F33"
           ></path>
         </svg>
-    </li>
-        <!-- <img width="40" alt="Logo" src="./../assets/LOGO-WARREN.jpeg"> -->
-    <li><a href>Menu1</a></li>
-    <li><a href>Menu2</a></li>
-    <li><a href>Menu3</a></li>
-    <li><a href>Menu4</a></li>
-    <li><a href>Menu5</a></li>
-    <li><input type="button" value="BUTTON"></li>
+      </li>
+      <!-- <img width="40" alt="Logo" src="./../assets/LOGO-WARREN.jpeg"> -->
+      <li><a href>Menu1</a></li>
+      <li><a href>Menu2</a></li>
+      <li><a href>Menu3</a></li>
+      <li><a href>Menu4</a></li>
+      <li><a href>Menu5</a></li>
+      <li><input type="button" value="BUTTON" /></li>
     </ul>
-</div>
+  </div>
 </template>
 
 <script>
 export default {
-    name: 'MenuProject'
-}
+  name: "MenuProject",
+};
 </script>
 
 <style scoped>
-.menu{
-    background-color: #dddddd;
-    padding: 10px;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    
+.menu {
+  background-color: #dddddd;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
 }
 
-li{
-    display: inline;
-    padding: 50px;    
+li {
+  display: inline;
+  padding: 50px;
 }
 
-li a{
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 12px;
+li a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
 }
 
-li input{
-    border-radius: 50px;
-    color: white;
-    background: black;
-    padding: 10px;
-    font-weight: bold;
-}    
-
+li input {
+  border-radius: 50px;
+  color: white;
+  background: black;
+  padding: 10px;
+  font-weight: bold;
+}
 </style>

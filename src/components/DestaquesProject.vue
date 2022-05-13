@@ -1,47 +1,77 @@
 <template>
-  <div>
-    <div class="container">
-      <img width=400 alt="destaque1" src="./../assets/img-premios.png">
-      <h1>Finanças Femininas</h1>
-      <h3>Um guia completo para mulheres <br>realizarem seus sonhos: 
-        <br>aprenda a só gastar com o que te faz feliz, 
-        <br>guardar dinheiro todos os meses e multiplicar 
-        <br>o que foi poupado com os melhores investimentos!</h3>
-        <button>BUTTON</button>
-      <h1><br>Aprenda a Investir
-      <br>
-        <br>Pare de frustrar
-        <br>o seu “eu do futuro”:
-        <br>conheça um novo jeito
-        <br>de investir!</h1>
-      <img width=450 alt="destaque2" src="./../assets/capa 2.png">
+  <main>
+    <div class="center">
+      <div>
+        <img
+          width="400"
+          height="500"
+          alt="destaque1"
+          src="./../assets/img-premios.png"
+        />
+      </div>
+      <div class="containert-text">
+        <h1>Finanças Femininas</h1>
+        <h4>Um guia completo para mulheres</h4>
+        <h4>realizarem seus sonhos:</h4>
+        <h4>aprenda a só gastar com o que te faz feliz,</h4>
+        <h4>guardar dinheiro todos os meses e multiplicar</h4>
+        <h4>o que foi poupado com os melhores investimentos!</h4>
+        <input type="button" value="BUTTON" />
+      </div>
     </div>
-  </div>
+
+    <div class="containert-text">
+      <h1>Aprenda a Investir</h1>
+      <h4>Pare de frustrar</h4>
+      <h4>seu “eu do futuro”:</h4>
+      <h4>conheça um novo jeito</h4>
+      <h4>de investir!</h4>
+      <div>
+        <div class="center">
+          <img width="500" alt="destaque2" src="./../assets/capa 2.png" />
+        </div>
+      </div>
+    </div>
+  </main>
 </template>
 
 <script>
 export default {
-    name: 'DestaquesProject'
-}
+  name: "DestaquesProject",
+};
 </script>
 
 <style scoped>
-.container{
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: space-around;
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
   justify-content: space-between;
   align-items: center;
   font-family: Arial, Helvetica;
-} 
+  max-width: 300px;
+  height: 300px;
+}
 
-.button{
+.input {
   border-radius: 50px;
-   color: white;
-   background: black;
-   padding: 10px ;
-   font-weight: bold;
-   margin-left: 5%;
+  color: white;
+  background: black;
+  padding: 10px;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  /* max-width: 300px;
+  height: 300px; */
+}
+
+.center {
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
 }
 </style>
