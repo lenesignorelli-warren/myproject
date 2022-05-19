@@ -1,18 +1,12 @@
 <template>
-  <div>
-    <div class="principal">
-      <div>
-        <h1>
-          Lorem ipsum dolor sit amet,<br />
-          consectetur adipiscing elit.br <br />
-          consectetur adipiscing elit.
-        </h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <br />
-        <button>BUTTON</button>
-      </div>
-    </div>
+<div>
+  <div class="principal">
+    <h1>Lorem ipsum dolor<br/> sit, consectetur<br /> adipiscing elit.<br /></h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <button>BUTTON</button>
   </div>
+    
+</div>  
 </template>
 
 <script>
@@ -28,18 +22,20 @@ export default {
   width: 100%;
   text-align: left;
   color: white;
+  padding: 70px;
 }
 
 h1 {
   font-size: 64px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin-left: 5%;
-  margin-top: 3%;
+  font-family: Arial, sans-serif;
 }
 
 p {
   font-size: 30px;
   margin-left: 5%;
+  margin-top: 30px;
+  font-family: Arial, sans-serif;
 }
 
 button {
@@ -49,5 +45,7 @@ button {
   padding: 10px;
   font-weight: bold;
   margin-left: 5%;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
 }
 </style>

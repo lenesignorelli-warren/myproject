@@ -1,38 +1,29 @@
 <template>
-  <main>
-    <div class="center">
-      <div>
-        <img
-          width="400"
-          height="500"
-          alt="destaque1"
-          src="./../assets/img-premios.png"
-        />
-      </div>
-      <div class="containert-text">
-        <h1>Finanças Femininas</h1>
-        <h4>Um guia completo para mulheres</h4>
-        <h4>realizarem seus sonhos:</h4>
-        <h4>aprenda a só gastar com o que te faz feliz,</h4>
-        <h4>guardar dinheiro todos os meses e multiplicar</h4>
-        <h4>o que foi poupado com os melhores investimentos!</h4>
-        <input type="button" value="BUTTON" />
-      </div>
-    </div>
-
-    <div class="containert-text">
-      <h1>Aprenda a Investir</h1>
-      <h4>Pare de frustrar</h4>
-      <h4>seu “eu do futuro”:</h4>
-      <h4>conheça um novo jeito</h4>
-      <h4>de investir!</h4>
-      <div>
-        <div class="center">
-          <img width="500" alt="destaque2" src="./../assets/capa 2.png" />
+    <div class="destaques">
+      <!-- <div class="container-img"> -->
+        <img width="400" height="500" alt="destaque1" src="./../assets/img-premios.png" />
+      <!-- </div> -->
+      <div class="container-text">
+        <div class="texto1">
+          <h1 class="text-h1">Finanças Femininas</h1>
+          <p>Um guia completo para mulheres realizarem seus sonhos: aprenda a só gastar com o que te faz feliz,
+          guardar dinheiro todos os meses e multiplicar o que foi poupado com os melhores investimentos!</p>
+          <p>Um guia completo para mulheres realizarem seus sonhos: aprenda a só gastar com o que te faz feliz,
+          guardar dinheiro todos os meses e multiplicar o que foi poupado com os melhores investimentos!</p>
+        </div>
+        <div>
+          <button class="btn">Confirmar</button>
         </div>
       </div>
+<!--          
+    <div class="texto2">
+      <h1>Aprenda a Investir</h1>
+      <p>Pare de frustrar seu “eu do futuro”: conheça um novo jeito de investir!</p>
+      <div>
+        <img width="500" alt="destaque2" src="./../assets/capa 2.png" />
+      </div>
+    </div> -->
     </div>
-  </main>
 </template>
 
 <script>
@@ -42,36 +33,43 @@ export default {
 </script>
 
 <style scoped>
-.container {
+.destaques {
+  font-family: Arial, sans-serif;
   display: flex;
-  flex-flow: row wrap;
-  align-content: space-between;
-  justify-content: space-between;
-  align-items: center;
-  font-family: Arial, Helvetica;
-  max-width: 300px;
-  height: 300px;
+  justify-content: space-evenly;
+  height: 790px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 100px auto 0 auto;
 }
 
-.input {
+.container-img{
+  background-color: gray;
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.container-text{
+  border: 1px red;
+  width: 400px;
+}
+
+.text-h1{
+  margin-bottom: 100px;
+}
+
+p{
+   font-weight: bold;
+}
+
+.btn {
   border-radius: 50px;
   color: white;
   background: black;
   padding: 10px;
   font-weight: bold;
+  margin-top: 20px;
 }
 
-main {
-  display: flex;
-  align-items: center;
-  /* max-width: 300px;
-  height: 300px; */
-}
-
-.center {
-  margin: 0px auto;
-  display: flex;
-  justify-content: space-between;
-  flex-flow: row wrap;
-}
 </style>
