@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <section>
     <div class="investir">
       <h2>Investir é sobre você</h2>
       <p>COMECE A INVESTIR EM POUCOS MINUTOS. DESCOMPLIQUE.</p>
       <button>BUTTON</button>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
